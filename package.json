@@ -1,0 +1,45 @@
+{
+ "name": "regex-internals",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "test": "npx jest"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/waldemarsauer/regex-internals.git"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/waldemarsauer/regex-internals/issues"
+ },
+ "homepage": "https://github.com/waldemarsauer/regex-internals#readme",
+ "devDependencies": {
+  "babel-cli": "^6.26.0",
+  "babel-core": "^6.26.3",
+  "babel-jest": "^24.9.0",
+  "jest": "^24.9.0"
+ },
+ "jest": {
+  "moduleFileExtensions": [
+   "js"
+  ],
+  "moduleNameMapper": {
+   "^@/(.*)$": "<rootDir>/src/$1"
+  },
+  "transform": {
+   "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+  },
+  "moduleDirectories": [
+   "node_modules",
+   "src"
+  ]
+ },
+ "dependencies": {
+  "babel-preset-env": "^1.7.0",
+  "babel-preset-node": "^5.1.1"
+ }
+}
