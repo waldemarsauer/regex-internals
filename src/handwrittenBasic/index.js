@@ -1,7 +1,7 @@
 import * as stringStream from '@/stringStream'
 
-function parse(input) {
-	let stream = stringStream.read(input)
+function parse(inputString) {
+	let stream = stringStream.read(inputString)
 	let nextChar, state = 1
 	while ((nextChar = stream.nextChar()) != -1) {
 		console.log(`In state ${state}, seeing ${nextChar}`)

@@ -1,4 +1,4 @@
-import { parse } from '@/handwrittenBasic'
+import { parse } from '.'
 
 describe('cat.js', () => {
 	it('recognizes cat', () => {
