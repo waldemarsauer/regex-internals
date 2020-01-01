@@ -1,7 +1,7 @@
 {
  "name": "regex-internals",
  "version": "1.0.0",
- "description": "",
+ "description": "An example of how a regular expression is parsed and executed",
  "main": "index.js",
  "scripts": {
   "test": "npx jest"
@@ -21,7 +21,8 @@
   "babel-cli": "^6.26.0",
   "babel-core": "^6.26.3",
   "babel-jest": "^24.9.0",
-  "jest": "^24.9.0"
+  "jest": "^24.9.0",
+  "istanbul-reports": "^3.0.0"
  },
  "jest": {
   "moduleFileExtensions": [
